@@ -1,0 +1,14 @@
+<html lang="en" dir="ltr"><head></head><body>&lt;
+
+  
+    <meta charset="utf-8">
+    <title>Lerning JavaScript</title>
+  
+  
+    <p>LERN JS</p>
+    &lt;<script src="domElements.js">
+      
+    </script><div><h1>Learn Js</h1></div>
+  
+
+</body></html>
