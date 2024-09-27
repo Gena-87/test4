@@ -4,10 +4,10 @@
 
   
     <meta charset="utf-8">
-    <title>Lerning JavaScript</title>
+    <title>Learning JavaScript</title>
   
   
-    <p>LERN JS</p>
+    <p>LEARN JS</p>
     &lt;
 <script src="domElements.js">
       
