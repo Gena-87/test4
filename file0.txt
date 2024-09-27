@@ -2,7 +2,6 @@
 <head>Studying</head>
 <body>&lt;
 
-  
     <meta charset="utf-8">
     <title>Learning JavaScript</title>
   
@@ -12,6 +11,11 @@
 <script src="domElements.js">
       
     </script><div><h1>Learn Js</h1></div>
+
+      <p>LEARN JS</p> &lt;
+<script src="domElements.js"> </script>
+<div><h1>Learn Js</h1></div>
+
   
 
 </body></html>
