@@ -1,5 +1,5 @@
 <html lang="en" dir="ltr">
-<head>Studying</head>
+<head>Training</head>
 <body>&lt;
 
   
