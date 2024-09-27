@@ -1,5 +1,5 @@
 <html lang="en" dir="ltr">
-<head>training</head>
+<head>Studying</head>
 <body>&lt;
 
   
@@ -8,10 +8,10 @@
   
   
     <p>LERN JS</p>
-    &lt;<script src="domElements.js">
+    &lt;
+<script src="domElements.js">
       
     </script><div><h1>Learn Js</h1></div>
   
 
 </body></html>
-
