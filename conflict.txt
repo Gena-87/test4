@@ -1,0 +1,172 @@
+var message; // a-z, A-Z, 0-9, $, _
+var myMessage;
+    myMessage = "for you";
+var myNumber = 10.485;
+var myString = "Hello everyone";
+var myBoolean = true;
+var myNull = null;
+var myUndefined = undefined;
+var myObject = {
+    name: "Genry",
+    age: 37
+};
+
+
+var result = 30 + 40;
+//alert(result);
+//alert (3*25);
+
+//ЧИСЛА
+//console.log(45 + myNumber);
+//console.log(45 - myNumber);
+//console.log(45 * myNumber);
+//console.log(45 / myNumber);
+//myNumber += 7;
+//console.log(myNumber);
+//console.log(Math.round(5.55));//округление
+//console.log(Math.ceil(7.1));//округленик в большую
+//console.log(Math.floor(4.9));//округленик в меньшую
+//var myNewnumber = 2.432;
+//console.log(myNewnumber.toFixed(1));//кол-во цифр после точки
+
+//СТРОКИ
+//console.log("40" + myNumber);
+//console.log(myString + " How are you");
+//console.log(myString.toLowerCase()); //все буквы маленькие
+//console.log(myString.toUpperCase()); //все буквы большиеие
+
+//МАССИВЫ
+var names =["Georg", "Maria", "Egor", "Vera"];
+console.log(names [0].toUpperCase());
+
+names[0] ="Sveta";//замена по идентиф номеру
+console.log(names[0]);
+
+names.push("Mila");//добавление в конец массива
+console.log(names[4]);
+
+console.log(names);//посмотреть весь массив
+
+
+ //УСЛОВИЯ
+
+ if (10>5) {
+   console.log('conditions are met');
+ }
+
+ if (10>=5) {
+   console.log('conditions are met');//больше  или равно
+ }
+
+ if ("5"==5) {
+   console.log('conditions are met');//равно
+ }
+
+ if ("5"===5) {
+   console.log('conditions are met');//строгое сравнение
+ }
+
+ if ("Вася" != "Петя") {
+   console.log('conditions are met');//условие выполнено если не равно
+ }
+
+ if ("Вася" !== "Петя") {
+   console.log('conditions are met');//строгое не равно
+ }
+
+ if ("Вася" !== "Петя" && myNumber < 20) {
+   console.log('conditions are met');// два условия должны быть выполнены
+ }
+
+ if ("Вася" !== "Петя" || myNumber > 20) {
+   console.log('conditions are met');//одно условие должно быть выполнены
+ }
+
+if (myNumber < 20) {
+  console.log("Число меньше 20");
+}else {
+  console.log("20 болше числа");//блок else выводит в консоль второй результат
+}
+
+//ЦИКЛЫ
+for (var i = 0; i < 10; i++) { //циклы будут повторяться пока i не дойдет до 10
+  console.log(i);
+}
+
+for (var i = 0; i < 10; i++) { //призадонном условии i==5 прирывается цикл при использ. break
+if (i==5){
+  break;
+}
+  console.log(i);
+}
+
+for (var i = 0; i < 10; i++) { //призадонном условии i==5 пропускается шаг и идет дальше
+if (i==5){
+  continue;
+}
+  console.log(i);
+}
+
+for (var j=0; j < names.length; j++) { //перебор массива, оператор length выводит кол-во элем. в массиве
+
+  console.log(names[j]);
+}
+
+var k =0;
+while (k<10) { //другой порядок чем в цикле for переменрая k выносится за пределы., k++ после log.
+  console.log(k);
+  k++;
+}
+
+//ФУНКЦИИ
+ function test() {
+   console.log("Let's do something");//обстрактная, пустая функция
+ }
+ test();
+
+function sum(x, myNumber){ //сложение двух значений
+  console.log(x + myNumber);
+}
+
+sum(10, myNumber);
+
+function sum(x, myNumber){ //сложение двух значений и возвращение результата
+  return x + myNumber;
+}
+
+console.log(sum(30, myNumber));
+console.log(sum(10, 23.5));
+
+
+//ОБЪЕКТЫ
+var newObject = { //консоль возвращает заданное значение в объекте
+  name: "Gerhard",
+  age: 33
+};
+
+console.log(newObject.name);
+
+var newObject = { //переопределение значенияя в объекте
+  name: "Gerhard",
+  age: 33
+};
+
+newObject.name = "Petr"
+console.log(newObject.name);
+
+var newObject = { //переопределение значенияя в объекте
+  name: "Gerhard",
+  surname: "Grinvich",
+  age: 33,
+  getFullname: function(){
+    return this.name + " " + this.surname;
+  }
+};
+
+newObject.name = "Petr"
+console.log(newObject.name);
+console.log(newObject.getFullname());
+
+2line
+test
+test
