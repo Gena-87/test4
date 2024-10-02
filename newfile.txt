@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 new line update
+=======
+new line
+first line
+>>>>>>> b01e8df5a491c79a6c650db9f9d6bdef5e2ff8ec
 new branch line
 branch line
 12345
