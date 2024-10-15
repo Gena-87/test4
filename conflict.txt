@@ -167,6 +167,5 @@ newObject.name = "Petr"
 console.log(newObject.name);
 console.log(newObject.getFullname());
 
-55588
-
+33777
 
